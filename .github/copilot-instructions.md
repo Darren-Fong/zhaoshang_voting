@@ -1,0 +1,3 @@
+<!-- Use this file to provide workspace-specific custom instructions to Copilot. For more details, visit https://code.visualstudio.com/docs/copilot/copilot-customization#_use-a-githubcopilotinstructionsmd-file -->
+
+This project is a Next.js app for a photo voting website. Users can upload up to 3 JPG photos (max 10MB each), and vote on photos (5 votes per user). Use Firebase for authentication (with admin-created usernames), storage (for photos), and Firestore (for votes and photo metadata). Include an upload page, a voting page (photos shown by number, not username), and a config for admin to add usernames. Prepare for Vercel deployment.

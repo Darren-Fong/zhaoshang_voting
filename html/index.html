@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/html/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting</title>
+</head>
+<body>
+    <div class="heading">
+        <h1>投票頁面</h1>
+    </div>
+    <div class="content">
+        <h2>請選擇您喜歡的選項：</h2>
+        <form action="/submit_vote" method="post">
+            <input type="radio" name="vote" value="option1"><img src="/src/app/favicon.ico">
+            <input type="radio" name="vote" value="option2"> 選項 2
+            <button type="submit">提交投票</button>
+        </form>
+
+    </div>
+</body>
+</html>
